@@ -1,0 +1,6 @@
+{
+  "name": "JobAgent Web",
+  "description": "AI-powered job discovery across USA & India, semantic 5-component matching, gate-driven ATS resume tailoring with strict no-fabrication truth validation, and application tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

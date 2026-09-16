@@ -1,0 +1,1731 @@
+{
+  "users": [
+    {
+      "id": "user-bhargav-001",
+      "name": "Bhargav Aravind Sai Ram Choppa",
+      "email": "bhargavchoppa23@gmail.com",
+      "created_at": "2026-09-11T16:22:08.434Z"
+    }
+  ],
+  "master_resumes": [
+    {
+      "id": "resume-master-001",
+      "user_id": "user-bhargav-001",
+      "version": 1,
+      "personal_information": {
+        "full_name": "Bhargav Aravind Sai Ram Choppa",
+        "email": "bhargavchoppa23@gmail.com",
+        "phone": "+1 (860) 555-0192",
+        "location": "Hartford, CT / Boston, MA (Open to USA & India)",
+        "linkedin_url": "https://linkedin.com/in/bhargav-choppa",
+        "header_positioning": "Business Analyst | Product Owner | CSM | CSPO | PMP | AWS & Azure Certified"
+      },
+      "professional_summary": "Accomplished Business Analyst and Product Owner with ~9 years of verified cross-functional experience across Semiconductor Manufacturing, Public Sector Health Eligibility Systems, FinTech Bridge Architectures, Financial Market Data Platforms, and E-Commerce Digital Payments. Proven track record in steering product roadmaps from ideation to delivery, leading Agile ceremonies, conducting market research, formulating pricing strategies, and authoring rigorous BRDs, User Stories, and Traceability Matrices.",
+      "total_experience_years": 9,
+      "is_immutable": true,
+      "last_updated": "2026-09-11",
+      "inconsistency_flags": [
+        {
+          "id": "FLAG-PMP-001",
+          "code": "HEADER_CERTIFICATION_MISMATCH",
+          "severity": "high",
+          "title": "PMP Header vs Certification Section Discrepancy",
+          "description": "The candidate header explicitly mentions \"PMP\", but the verified certification section does not independently list the Project Management Professional (PMP) credential from PMI.",
+          "location_a": "personal_information.header_positioning",
+          "location_b": "certifications",
+          "resolution_rule": "STRICT AUDIT RULE: Never invent, fabricate, or silently add PMP into certifications. Flag clearly in ATS audit reports and warn user before generating executive summaries."
+        }
+      ],
+      "skills": [
+        "Business Analysis",
+        "Product Roadmapping",
+        "Feature Prioritization",
+        "Agile / Scrum",
+        "Sprint Planning",
+        "User Stories & Acceptance Criteria",
+        "BRD (Business Requirements Document)",
+        "Process & Workflow Modeling",
+        "System Analysis",
+        "Impact Assessments",
+        "Feasibility Studies",
+        "Requirements Traceability Matrix (RTM)",
+        "A/B Testing",
+        "Customer Insights & Advocacy",
+        "Stakeholder Management & Collaboration",
+        "Market Research & Competitor Analysis",
+        "Pricing Strategy & Financial Forecasting",
+        "Go-to-Market (GTM) Strategy",
+        "User Acceptance Testing (UAT)",
+        "Process Automation",
+        "Cross-Functional Leadership"
+      ],
+      "technologies": [
+        "Tableau",
+        "Power BI",
+        "AWS QuickSight",
+        "Google Analytics",
+        "SQL",
+        "Statistical Analysis",
+        "BI & Data Visualization",
+        "Jira",
+        "Confluence",
+        "Azure DevOps",
+        "Rally",
+        "AWS (Amazon Web Services)",
+        "Microsoft Azure",
+        "REST API",
+        "JSON",
+        "XML",
+        "GitHub",
+        "GitLab",
+        "Postman",
+        "Cloud Solutions Architecture"
+      ],
+      "experience": [
+        {
+          "id": "exp-001",
+          "company": "MIT Resources",
+          "title": "Business Analyst",
+          "location": "Hartford, Connecticut",
+          "start_date": "Aug 2023",
+          "end_date": "Present",
+          "is_current": true,
+          "responsibilities": [
+            "Steer the product roadmap for advanced semiconductor wafer fabrication technologies, translating complex engineering parameters into high-impact customer-facing features.",
+            "Synthesize market research and quantitative customer insights to align engineering, manufacturing, and global sales departments on key product deliverables.",
+            "Provide dedicated global customer technical product and application support for advanced wafer manufacturing lines.",
+            "Formulate data-driven pricing models and financial forecasting leveraging Tableau and Power BI analytical dashboards.",
+            "Lead executive prioritization sessions and customer advocacy forums to resolve technical tradeoffs and accelerate contract discussions."
+          ],
+          "achievements": [
+            "Engineered predictive financial forecasting models in Tableau/Power BI that informed executive contract negotiations.",
+            "Bridged global customer technical escalations directly into manufacturing release sprints, drastically reducing feedback turnaround."
+          ],
+          "technologies": [
+            "Tableau",
+            "Power BI",
+            "SQL",
+            "Jira",
+            "Confluence",
+            "Cloud Solutions Architecture"
+          ],
+          "industry": "Semiconductor Manufacturing & Hardware Engineering",
+          "domain": "Wafer Fabrication, Industrial Analytics & Supply Chain"
+        },
+        {
+          "id": "exp-002",
+          "company": "Kyyba",
+          "title": "Senior Business Analyst",
+          "location": "Boston, Massachusetts",
+          "start_date": "Nov 2022",
+          "end_date": "Aug 2023",
+          "is_current": false,
+          "responsibilities": [
+            "Directed the end-to-end product roadmap for a large-scale enterprise Integrated Eligibility and Enrollment System.",
+            "Governed feature delivery, technical tradeoffs, and sprint milestones across engineering, platform architecture, and system integration teams.",
+            "Extracted and operationalized customer insights to automate manual state-level eligibility workflows.",
+            "Instituted operational KPI dashboards and business intelligence reporting inside Jira and Agile frameworks."
+          ],
+          "achievements": [
+            "Spearheaded process automation and eligibility workflow streamlining that achieved a 30% operational effectiveness improvement.",
+            "Delivered complex regulatory integration sprints ahead of multi-agency compliance deadlines."
+          ],
+          "technologies": [
+            "Jira",
+            "Confluence",
+            "Agile/Scrum",
+            "BI Dashboards",
+            "Process Automation",
+            "REST API"
+          ],
+          "industry": "Public Sector & Health and Human Services (HHS)",
+          "domain": "Enterprise Eligibility, Enrollment Platforms & State Digital Services"
+        },
+        {
+          "id": "exp-003",
+          "company": "Client Server Technology Solutions",
+          "title": "Business Analyst",
+          "location": "New Jersey",
+          "start_date": "Jun 2022",
+          "end_date": "Nov 2022",
+          "is_current": false,
+          "responsibilities": [
+            "Defined and delivered the product roadmap for enterprise bridge software orchestrating data exchange between disparate financial data platforms.",
+            "Evaluated cloud architecture and informed core technology decisions alongside principal software engineers and operational leads.",
+            "Analyzed technical architecture versus pricing tradeoffs to establish go-to-market (GTM) pricing tiers.",
+            "Chaired user acceptance testing (UAT), regression cycles, and user advocacy councils across customer testing groups."
+          ],
+          "achievements": [
+            "Engineered bridge software specifications enabling seamless bidirectional data synchronization across legacy and modern cloud finance systems.",
+            "Standardized UAT acceptance criteria that cut post-deployment defects by over 25%."
+          ],
+          "technologies": [
+            "Cloud Architecture",
+            "AWS",
+            "Azure",
+            "REST API",
+            "JSON",
+            "XML",
+            "Postman",
+            "UAT"
+          ],
+          "industry": "Financial Technology (FinTech)",
+          "domain": "Financial Data Integration, Cloud Middleware & API Interoperability"
+        },
+        {
+          "id": "exp-004",
+          "company": "FactSet",
+          "title": "Associate Product Specialist",
+          "location": "New York",
+          "start_date": "May 2021",
+          "end_date": "May 2022",
+          "is_current": false,
+          "responsibilities": [
+            "Contributed to the financial services product roadmap, developing technical feature specifications for financial analysis suites.",
+            "Conducted competitor market research and pricing strategy analysis to optimize product profitability and adoption.",
+            "Collaborated with marketing to execute targeted digital campaigns and delivered technical sales support for institutional finance clients.",
+            "Authored in-depth technical documentation, API specifications, and product release guides for investment professionals."
+          ],
+          "achievements": [
+            "Synthesized market research that directly informed the rollout of a refreshed pricing tier for institutional market data feeds.",
+            "Assisted technical sales teams on complex institutional client RFPs and bespoke workflow integrations."
+          ],
+          "technologies": [
+            "Tableau",
+            "SQL",
+            "Postman",
+            "REST API",
+            "Market Research",
+            "Technical Documentation"
+          ],
+          "industry": "Capital Markets & Financial Data",
+          "domain": "Investment Analytics, Market Data Feeds & FinTech Workstations"
+        },
+        {
+          "id": "exp-005",
+          "company": "TCS",
+          "title": "Business Analyst",
+          "location": "Hyderabad, India",
+          "start_date": "Sep 2019",
+          "end_date": "Apr 2021",
+          "is_current": false,
+          "responsibilities": [
+            "Functioned as primary product roadmap liaison bridging cross-border engineering teams with e-commerce and banking stakeholders.",
+            "Conducted rigorous business problem decomposition, authored comprehensive BRDs, process flow diagrams, and workflow models.",
+            "Drove digital payment integration initiatives, coordinating functional, non-functional, performance, reliability, and security testing.",
+            "Coordinated technical integrations with third-party payment gateways and strategic banking partners."
+          ],
+          "achievements": [
+            "Architected end-to-end payment workflow models ensuring ISO/PCI-DSS regulatory compliance across digital transaction corridors.",
+            "Delivered 100% test scenario coverage across functional and security integration matrices."
+          ],
+          "technologies": [
+            "BRD",
+            "User Stories",
+            "Workflow Modeling",
+            "Digital Payments",
+            "SQL",
+            "JSON",
+            "Jira",
+            "Rally"
+          ],
+          "industry": "Banking, Financial Services & E-Commerce",
+          "domain": "Core Banking, Digital Payments & Transaction Gateways"
+        },
+        {
+          "id": "exp-006",
+          "company": "SS Engineering Academy",
+          "title": "Business Analyst Intern",
+          "location": "Vijayawada, India",
+          "start_date": "Jul 2016",
+          "end_date": "May 2017",
+          "is_current": false,
+          "responsibilities": [
+            "Supported roadmap implementation and executed change management initiatives across academic software systems.",
+            "Conducted extensive competitor benchmarking across 5 industry-leading cloud education and learning management platforms.",
+            "Evaluated emerging cloud education market trends to prioritize 3 high-impact product improvements."
+          ],
+          "achievements": [
+            "Formulated competitive matrix evaluating 5 ed-tech platforms that prioritized 3 high-adoption student portal enhancements."
+          ],
+          "technologies": [
+            "Competitor Analysis",
+            "Cloud Education Analysis",
+            "Process Modeling",
+            "Change Management"
+          ],
+          "industry": "EdTech / Cloud Learning Systems",
+          "domain": "Academic Portals, Student Information Systems & Cloud Learning"
+        }
+      ],
+      "education": [
+        {
+          "id": "edu-001",
+          "degree": "Master of Technology (M.Tech)",
+          "field_of_study": "Computer Science and Engineering",
+          "institution": "Amity University",
+          "graduation_date": "May 2019",
+          "location": "India"
+        },
+        {
+          "id": "edu-002",
+          "degree": "Bachelor of Technology (B.Tech)",
+          "field_of_study": "Computer Science and Engineering",
+          "institution": "Vignan University",
+          "graduation_date": "May 2016",
+          "location": "India"
+        }
+      ],
+      "certifications": [
+        {
+          "id": "cert-001",
+          "name": "CSPO (Certified Scrum Product Owner)",
+          "issuer": "Scrum Alliance",
+          "verified": true,
+          "notes": "Verified agile product leadership certification."
+        },
+        {
+          "id": "cert-002",
+          "name": "CSM (Certified ScrumMaster)",
+          "issuer": "Scrum Alliance",
+          "verified": true,
+          "notes": "Verified agile facilitation and scrum mastery."
+        },
+        {
+          "id": "cert-003",
+          "name": "AWS Certified Cloud Practitioner",
+          "issuer": "Amazon Web Services",
+          "verified": true,
+          "notes": "Verified foundational cloud architecture and billing concepts."
+        },
+        {
+          "id": "cert-004",
+          "name": "AWS Cloud Financial Optimization Certified",
+          "issuer": "Amazon Web Services",
+          "verified": true,
+          "notes": "Verified cloud cost optimization and financial management."
+        },
+        {
+          "id": "cert-005",
+          "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+          "issuer": "Microsoft",
+          "verified": true,
+          "notes": "Verified Azure cloud services, security, and compliance."
+        },
+        {
+          "id": "cert-006",
+          "name": "Product Launches Micro-Certification",
+          "issuer": "ProductSchool",
+          "verified": true
+        },
+        {
+          "id": "cert-007",
+          "name": "Product-Led Growth Micro-Certification",
+          "issuer": "ProductSchool",
+          "verified": true
+        },
+        {
+          "id": "cert-008",
+          "name": "Product Road Mapping Micro-Certification",
+          "issuer": "ProductSchool",
+          "verified": true
+        },
+        {
+          "id": "cert-009",
+          "name": "Product Strategy Micro-Certification",
+          "issuer": "ProductSchool",
+          "verified": true
+        },
+        {
+          "id": "cert-010",
+          "name": "Product Analytics Micro-Certification",
+          "issuer": "ProductSchool",
+          "verified": true
+        }
+      ],
+      "projects": [
+        {
+          "id": "proj-001",
+          "name": "Semiconductor Wafer Yield & Pricing Intelligence Engine",
+          "description": "Engineered an analytical pricing and yield tracking pipeline combining Tableau dashboards with wafer telemetry data to assist executive negotiations with global fab customers.",
+          "technologies": [
+            "Tableau",
+            "Power BI",
+            "SQL",
+            "Statistical Modeling"
+          ]
+        },
+        {
+          "id": "proj-002",
+          "name": "Public HHS Eligibility & Enrollment Modernization",
+          "description": "Architected operational workflows and automated eligibility rule evaluations, leading to a 30% operational effectiveness gain.",
+          "technologies": [
+            "Jira",
+            "Process Modeling",
+            "Agile/Scrum",
+            "REST APIs"
+          ]
+        },
+        {
+          "id": "proj-003",
+          "name": "Cross-Platform Financial Middleware Bridge",
+          "description": "Designed bidirectional bridge specifications connecting institutional financial analysis endpoints with cloud storage architectures.",
+          "technologies": [
+            "AWS",
+            "Azure",
+            "REST API",
+            "JSON",
+            "Postman"
+          ]
+        }
+      ],
+      "achievements": [
+        "Spearheaded process automation in public eligibility platforms yielding a documented 30% operational effectiveness improvement.",
+        "Formulated financial forecasting tools in Tableau/Power BI relied upon by executive leadership for multi-million dollar fab wafer agreements.",
+        "Over 9 years of verified track record bridging deep technical engineering teams with high-stakes enterprise clients."
+      ],
+      "is_active": true
+    }
+  ],
+  "resume_versions": [
+    {
+      "version": 1,
+      "timestamp": "2026-09-11T16:22:08.434Z",
+      "snapshot": {
+        "id": "resume-master-001",
+        "user_id": "user-bhargav-001",
+        "version": 1,
+        "personal_information": {
+          "full_name": "Bhargav Aravind Sai Ram Choppa",
+          "email": "bhargavchoppa23@gmail.com",
+          "phone": "+1 (860) 555-0192",
+          "location": "Hartford, CT / Boston, MA (Open to USA & India)",
+          "linkedin_url": "https://linkedin.com/in/bhargav-choppa",
+          "header_positioning": "Business Analyst | Product Owner | CSM | CSPO | PMP | AWS & Azure Certified"
+        },
+        "professional_summary": "Accomplished Business Analyst and Product Owner with ~9 years of verified cross-functional experience across Semiconductor Manufacturing, Public Sector Health Eligibility Systems, FinTech Bridge Architectures, Financial Market Data Platforms, and E-Commerce Digital Payments. Proven track record in steering product roadmaps from ideation to delivery, leading Agile ceremonies, conducting market research, formulating pricing strategies, and authoring rigorous BRDs, User Stories, and Traceability Matrices.",
+        "total_experience_years": 9,
+        "is_immutable": true,
+        "last_updated": "2026-09-11",
+        "inconsistency_flags": [
+          {
+            "id": "FLAG-PMP-001",
+            "code": "HEADER_CERTIFICATION_MISMATCH",
+            "severity": "high",
+            "title": "PMP Header vs Certification Section Discrepancy",
+            "description": "The candidate header explicitly mentions \"PMP\", but the verified certification section does not independently list the Project Management Professional (PMP) credential from PMI.",
+            "location_a": "personal_information.header_positioning",
+            "location_b": "certifications",
+            "resolution_rule": "STRICT AUDIT RULE: Never invent, fabricate, or silently add PMP into certifications. Flag clearly in ATS audit reports and warn user before generating executive summaries."
+          }
+        ],
+        "skills": [
+          "Business Analysis",
+          "Product Roadmapping",
+          "Feature Prioritization",
+          "Agile / Scrum",
+          "Sprint Planning",
+          "User Stories & Acceptance Criteria",
+          "BRD (Business Requirements Document)",
+          "Process & Workflow Modeling",
+          "System Analysis",
+          "Impact Assessments",
+          "Feasibility Studies",
+          "Requirements Traceability Matrix (RTM)",
+          "A/B Testing",
+          "Customer Insights & Advocacy",
+          "Stakeholder Management & Collaboration",
+          "Market Research & Competitor Analysis",
+          "Pricing Strategy & Financial Forecasting",
+          "Go-to-Market (GTM) Strategy",
+          "User Acceptance Testing (UAT)",
+          "Process Automation",
+          "Cross-Functional Leadership"
+        ],
+        "technologies": [
+          "Tableau",
+          "Power BI",
+          "AWS QuickSight",
+          "Google Analytics",
+          "SQL",
+          "Statistical Analysis",
+          "BI & Data Visualization",
+          "Jira",
+          "Confluence",
+          "Azure DevOps",
+          "Rally",
+          "AWS (Amazon Web Services)",
+          "Microsoft Azure",
+          "REST API",
+          "JSON",
+          "XML",
+          "GitHub",
+          "GitLab",
+          "Postman",
+          "Cloud Solutions Architecture"
+        ],
+        "experience": [
+          {
+            "id": "exp-001",
+            "company": "MIT Resources",
+            "title": "Business Analyst",
+            "location": "Hartford, Connecticut",
+            "start_date": "Aug 2023",
+            "end_date": "Present",
+            "is_current": true,
+            "responsibilities": [
+              "Steer the product roadmap for advanced semiconductor wafer fabrication technologies, translating complex engineering parameters into high-impact customer-facing features.",
+              "Synthesize market research and quantitative customer insights to align engineering, manufacturing, and global sales departments on key product deliverables.",
+              "Provide dedicated global customer technical product and application support for advanced wafer manufacturing lines.",
+              "Formulate data-driven pricing models and financial forecasting leveraging Tableau and Power BI analytical dashboards.",
+              "Lead executive prioritization sessions and customer advocacy forums to resolve technical tradeoffs and accelerate contract discussions."
+            ],
+            "achievements": [
+              "Engineered predictive financial forecasting models in Tableau/Power BI that informed executive contract negotiations.",
+              "Bridged global customer technical escalations directly into manufacturing release sprints, drastically reducing feedback turnaround."
+            ],
+            "technologies": [
+              "Tableau",
+              "Power BI",
+              "SQL",
+              "Jira",
+              "Confluence",
+              "Cloud Solutions Architecture"
+            ],
+            "industry": "Semiconductor Manufacturing & Hardware Engineering",
+            "domain": "Wafer Fabrication, Industrial Analytics & Supply Chain"
+          },
+          {
+            "id": "exp-002",
+            "company": "Kyyba",
+            "title": "Senior Business Analyst",
+            "location": "Boston, Massachusetts",
+            "start_date": "Nov 2022",
+            "end_date": "Aug 2023",
+            "is_current": false,
+            "responsibilities": [
+              "Directed the end-to-end product roadmap for a large-scale enterprise Integrated Eligibility and Enrollment System.",
+              "Governed feature delivery, technical tradeoffs, and sprint milestones across engineering, platform architecture, and system integration teams.",
+              "Extracted and operationalized customer insights to automate manual state-level eligibility workflows.",
+              "Instituted operational KPI dashboards and business intelligence reporting inside Jira and Agile frameworks."
+            ],
+            "achievements": [
+              "Spearheaded process automation and eligibility workflow streamlining that achieved a 30% operational effectiveness improvement.",
+              "Delivered complex regulatory integration sprints ahead of multi-agency compliance deadlines."
+            ],
+            "technologies": [
+              "Jira",
+              "Confluence",
+              "Agile/Scrum",
+              "BI Dashboards",
+              "Process Automation",
+              "REST API"
+            ],
+            "industry": "Public Sector & Health and Human Services (HHS)",
+            "domain": "Enterprise Eligibility, Enrollment Platforms & State Digital Services"
+          },
+          {
+            "id": "exp-003",
+            "company": "Client Server Technology Solutions",
+            "title": "Business Analyst",
+            "location": "New Jersey",
+            "start_date": "Jun 2022",
+            "end_date": "Nov 2022",
+            "is_current": false,
+            "responsibilities": [
+              "Defined and delivered the product roadmap for enterprise bridge software orchestrating data exchange between disparate financial data platforms.",
+              "Evaluated cloud architecture and informed core technology decisions alongside principal software engineers and operational leads.",
+              "Analyzed technical architecture versus pricing tradeoffs to establish go-to-market (GTM) pricing tiers.",
+              "Chaired user acceptance testing (UAT), regression cycles, and user advocacy councils across customer testing groups."
+            ],
+            "achievements": [
+              "Engineered bridge software specifications enabling seamless bidirectional data synchronization across legacy and modern cloud finance systems.",
+              "Standardized UAT acceptance criteria that cut post-deployment defects by over 25%."
+            ],
+            "technologies": [
+              "Cloud Architecture",
+              "AWS",
+              "Azure",
+              "REST API",
+              "JSON",
+              "XML",
+              "Postman",
+              "UAT"
+            ],
+            "industry": "Financial Technology (FinTech)",
+            "domain": "Financial Data Integration, Cloud Middleware & API Interoperability"
+          },
+          {
+            "id": "exp-004",
+            "company": "FactSet",
+            "title": "Associate Product Specialist",
+            "location": "New York",
+            "start_date": "May 2021",
+            "end_date": "May 2022",
+            "is_current": false,
+            "responsibilities": [
+              "Contributed to the financial services product roadmap, developing technical feature specifications for financial analysis suites.",
+              "Conducted competitor market research and pricing strategy analysis to optimize product profitability and adoption.",
+              "Collaborated with marketing to execute targeted digital campaigns and delivered technical sales support for institutional finance clients.",
+              "Authored in-depth technical documentation, API specifications, and product release guides for investment professionals."
+            ],
+            "achievements": [
+              "Synthesized market research that directly informed the rollout of a refreshed pricing tier for institutional market data feeds.",
+              "Assisted technical sales teams on complex institutional client RFPs and bespoke workflow integrations."
+            ],
+            "technologies": [
+              "Tableau",
+              "SQL",
+              "Postman",
+              "REST API",
+              "Market Research",
+              "Technical Documentation"
+            ],
+            "industry": "Capital Markets & Financial Data",
+            "domain": "Investment Analytics, Market Data Feeds & FinTech Workstations"
+          },
+          {
+            "id": "exp-005",
+            "company": "TCS",
+            "title": "Business Analyst",
+            "location": "Hyderabad, India",
+            "start_date": "Sep 2019",
+            "end_date": "Apr 2021",
+            "is_current": false,
+            "responsibilities": [
+              "Functioned as primary product roadmap liaison bridging cross-border engineering teams with e-commerce and banking stakeholders.",
+              "Conducted rigorous business problem decomposition, authored comprehensive BRDs, process flow diagrams, and workflow models.",
+              "Drove digital payment integration initiatives, coordinating functional, non-functional, performance, reliability, and security testing.",
+              "Coordinated technical integrations with third-party payment gateways and strategic banking partners."
+            ],
+            "achievements": [
+              "Architected end-to-end payment workflow models ensuring ISO/PCI-DSS regulatory compliance across digital transaction corridors.",
+              "Delivered 100% test scenario coverage across functional and security integration matrices."
+            ],
+            "technologies": [
+              "BRD",
+              "User Stories",
+              "Workflow Modeling",
+              "Digital Payments",
+              "SQL",
+              "JSON",
+              "Jira",
+              "Rally"
+            ],
+            "industry": "Banking, Financial Services & E-Commerce",
+            "domain": "Core Banking, Digital Payments & Transaction Gateways"
+          },
+          {
+            "id": "exp-006",
+            "company": "SS Engineering Academy",
+            "title": "Business Analyst Intern",
+            "location": "Vijayawada, India",
+            "start_date": "Jul 2016",
+            "end_date": "May 2017",
+            "is_current": false,
+            "responsibilities": [
+              "Supported roadmap implementation and executed change management initiatives across academic software systems.",
+              "Conducted extensive competitor benchmarking across 5 industry-leading cloud education and learning management platforms.",
+              "Evaluated emerging cloud education market trends to prioritize 3 high-impact product improvements."
+            ],
+            "achievements": [
+              "Formulated competitive matrix evaluating 5 ed-tech platforms that prioritized 3 high-adoption student portal enhancements."
+            ],
+            "technologies": [
+              "Competitor Analysis",
+              "Cloud Education Analysis",
+              "Process Modeling",
+              "Change Management"
+            ],
+            "industry": "EdTech / Cloud Learning Systems",
+            "domain": "Academic Portals, Student Information Systems & Cloud Learning"
+          }
+        ],
+        "education": [
+          {
+            "id": "edu-001",
+            "degree": "Master of Technology (M.Tech)",
+            "field_of_study": "Computer Science and Engineering",
+            "institution": "Amity University",
+            "graduation_date": "May 2019",
+            "location": "India"
+          },
+          {
+            "id": "edu-002",
+            "degree": "Bachelor of Technology (B.Tech)",
+            "field_of_study": "Computer Science and Engineering",
+            "institution": "Vignan University",
+            "graduation_date": "May 2016",
+            "location": "India"
+          }
+        ],
+        "certifications": [
+          {
+            "id": "cert-001",
+            "name": "CSPO (Certified Scrum Product Owner)",
+            "issuer": "Scrum Alliance",
+            "verified": true,
+            "notes": "Verified agile product leadership certification."
+          },
+          {
+            "id": "cert-002",
+            "name": "CSM (Certified ScrumMaster)",
+            "issuer": "Scrum Alliance",
+            "verified": true,
+            "notes": "Verified agile facilitation and scrum mastery."
+          },
+          {
+            "id": "cert-003",
+            "name": "AWS Certified Cloud Practitioner",
+            "issuer": "Amazon Web Services",
+            "verified": true,
+            "notes": "Verified foundational cloud architecture and billing concepts."
+          },
+          {
+            "id": "cert-004",
+            "name": "AWS Cloud Financial Optimization Certified",
+            "issuer": "Amazon Web Services",
+            "verified": true,
+            "notes": "Verified cloud cost optimization and financial management."
+          },
+          {
+            "id": "cert-005",
+            "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+            "issuer": "Microsoft",
+            "verified": true,
+            "notes": "Verified Azure cloud services, security, and compliance."
+          },
+          {
+            "id": "cert-006",
+            "name": "Product Launches Micro-Certification",
+            "issuer": "ProductSchool",
+            "verified": true
+          },
+          {
+            "id": "cert-007",
+            "name": "Product-Led Growth Micro-Certification",
+            "issuer": "ProductSchool",
+            "verified": true
+          },
+          {
+            "id": "cert-008",
+            "name": "Product Road Mapping Micro-Certification",
+            "issuer": "ProductSchool",
+            "verified": true
+          },
+          {
+            "id": "cert-009",
+            "name": "Product Strategy Micro-Certification",
+            "issuer": "ProductSchool",
+            "verified": true
+          },
+          {
+            "id": "cert-010",
+            "name": "Product Analytics Micro-Certification",
+            "issuer": "ProductSchool",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "id": "proj-001",
+            "name": "Semiconductor Wafer Yield & Pricing Intelligence Engine",
+            "description": "Engineered an analytical pricing and yield tracking pipeline combining Tableau dashboards with wafer telemetry data to assist executive negotiations with global fab customers.",
+            "technologies": [
+              "Tableau",
+              "Power BI",
+              "SQL",
+              "Statistical Modeling"
+            ]
+          },
+          {
+            "id": "proj-002",
+            "name": "Public HHS Eligibility & Enrollment Modernization",
+            "description": "Architected operational workflows and automated eligibility rule evaluations, leading to a 30% operational effectiveness gain.",
+            "technologies": [
+              "Jira",
+              "Process Modeling",
+              "Agile/Scrum",
+              "REST APIs"
+            ]
+          },
+          {
+            "id": "proj-003",
+            "name": "Cross-Platform Financial Middleware Bridge",
+            "description": "Designed bidirectional bridge specifications connecting institutional financial analysis endpoints with cloud storage architectures.",
+            "technologies": [
+              "AWS",
+              "Azure",
+              "REST API",
+              "JSON",
+              "Postman"
+            ]
+          }
+        ],
+        "achievements": [
+          "Spearheaded process automation in public eligibility platforms yielding a documented 30% operational effectiveness improvement.",
+          "Formulated financial forecasting tools in Tableau/Power BI relied upon by executive leadership for multi-million dollar fab wafer agreements.",
+          "Over 9 years of verified track record bridging deep technical engineering teams with high-stakes enterprise clients."
+        ],
+        "is_active": true
+      },
+      "note": "Initial verified master resume seeded with verified professional history and PMP header discrepancy flag.",
+      "is_active": true
+    }
+  ],
+  "jobs": [],
+  "job_sources": [
+    {
+      "id": "src-gh",
+      "name": "Greenhouse ATS",
+      "type": "ats",
+      "base_url": "https://boards.greenhouse.io",
+      "active": true
+    },
+    {
+      "id": "src-lever",
+      "name": "Lever ATS",
+      "type": "ats",
+      "base_url": "https://jobs.lever.co",
+      "active": true
+    },
+    {
+      "id": "src-workday",
+      "name": "Workday ATS",
+      "type": "ats",
+      "base_url": "https://myworkdayjobs.com",
+      "active": true
+    },
+    {
+      "id": "src-ashby",
+      "name": "Ashby ATS",
+      "type": "ats",
+      "base_url": "https://jobs.ashbyhq.com",
+      "active": true
+    },
+    {
+      "id": "src-builtin",
+      "name": "BuiltIn Tech Jobs",
+      "type": "portal",
+      "base_url": "https://builtin.com",
+      "active": true
+    },
+    {
+      "id": "src-linkedin",
+      "name": "LinkedIn Jobs Public",
+      "type": "portal",
+      "base_url": "https://linkedin.com/jobs",
+      "active": true
+    },
+    {
+      "id": "src-google",
+      "name": "Google Search Job Grounding",
+      "type": "search_grounding",
+      "base_url": "https://google.com",
+      "active": true
+    }
+  ],
+  "job_search_runs": [],
+  "job_matches": {},
+  "ats_analyses": {},
+  "tailored_resumes": [],
+  "applications": [],
+  "application_events": [],
+  "search_queries": [
+    {
+      "id": "q-001",
+      "query": "Business Analyst wafer fabrication semiconductor Connecticut",
+      "country": "USA",
+      "timestamp": "2026-09-08"
+    },
+    {
+      "id": "q-002",
+      "query": "Senior Business Analyst health eligibility enrollment Boston",
+      "country": "USA",
+      "timestamp": "2026-09-08"
+    },
+    {
+      "id": "q-003",
+      "query": "Product Manager digital payments merchant gateway Bangalore",
+      "country": "India",
+      "timestamp": "2026-09-09"
+    }
+  ],
+  "system_logs": [
+    {
+      "id": "log-1789574081380-mwgi",
+      "timestamp": "2026-09-16T15:54:41.380Z",
+      "level": "info",
+      "module": "DATABASE",
+      "message": "Database reset to a clean slate (ready for fresh discovery and user data)."
+    },
+    {
+      "id": "log-1789574080435-capj",
+      "timestamp": "2026-09-16T15:54:40.435Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [14/58]: \"Senior Software Engineer, Add-Ons\" at mozilla..."
+    },
+    {
+      "id": "log-1789574080427-xui6",
+      "timestamp": "2026-09-16T15:54:40.427Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 47% [Reject] below 60% gate; tailoring skipped."
+    },
+    {
+      "id": "log-1789574080420-96fy",
+      "timestamp": "2026-09-16T15:54:40.420Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Digital Communications Consultant & Project Manager (w/m/d)\" at nanacom Kommunikationskollektiv GmbH scored 47% [Reject]. Tailoring Gate >=60%: false"
+    },
+    {
+      "id": "log-1789574078541-tp15",
+      "timestamp": "2026-09-16T15:54:38.541Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [13/58]: \"Digital Communications Consultant & Project Manager (w/m/d)\" at nanacom Kommunikationskollektiv GmbH..."
+    },
+    {
+      "id": "log-1789574078534-vxp5",
+      "timestamp": "2026-09-16T15:54:38.534Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Generated tailored resume with 69% truthful ATS coverage (Zero Fabrication Certified)."
+    },
+    {
+      "id": "log-1789574078510-cboq",
+      "timestamp": "2026-09-16T15:54:38.510Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini tailoring failed: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Using deterministic tailoring engine."
+    },
+    {
+      "id": "log-1789574078501-v6ng",
+      "timestamp": "2026-09-16T15:54:38.501Z",
+      "level": "info",
+      "module": "ATS_TAILOR",
+      "message": "Initiating automated resume tailoring for \"Senior Account Manager (w/m/d)\" at OLIVER Agency (Gate >= 60% passed with match score 71%)."
+    },
+    {
+      "id": "log-1789574078487-jpp8",
+      "timestamp": "2026-09-16T15:54:38.487Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini ATS analysis error: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Falling back to deterministic ATS engine."
+    },
+    {
+      "id": "log-1789574078478-05a5",
+      "timestamp": "2026-09-16T15:54:38.478Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 71% passes the 60% Gate! Generating tailored resume..."
+    },
+    {
+      "id": "log-1789574078472-2nl6",
+      "timestamp": "2026-09-16T15:54:38.472Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Senior Account Manager (w/m/d)\" at OLIVER Agency scored 71% [Tailor Resume]. Tailoring Gate >=60%: true"
+    },
+    {
+      "id": "log-1789574076464-8873",
+      "timestamp": "2026-09-16T15:54:36.464Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [12/58]: \"Senior Account Manager (w/m/d)\" at OLIVER Agency..."
+    },
+    {
+      "id": "log-1789574076458-d7wk",
+      "timestamp": "2026-09-16T15:54:36.458Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Generated tailored resume with 69% truthful ATS coverage (Zero Fabrication Certified)."
+    },
+    {
+      "id": "log-1789574076439-8o5z",
+      "timestamp": "2026-09-16T15:54:36.439Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini tailoring failed: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Using deterministic tailoring engine."
+    },
+    {
+      "id": "log-1789574076432-qgwu",
+      "timestamp": "2026-09-16T15:54:36.432Z",
+      "level": "info",
+      "module": "ATS_TAILOR",
+      "message": "Initiating automated resume tailoring for \"Engineering Manager - Verification\" at SumUp (Gate >= 60% passed with match score 73%)."
+    },
+    {
+      "id": "log-1789574076419-qpvc",
+      "timestamp": "2026-09-16T15:54:36.419Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini ATS analysis error: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Falling back to deterministic ATS engine."
+    },
+    {
+      "id": "log-1789574076412-618w",
+      "timestamp": "2026-09-16T15:54:36.412Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 73% passes the 60% Gate! Generating tailored resume..."
+    },
+    {
+      "id": "log-1789574076405-9m7o",
+      "timestamp": "2026-09-16T15:54:36.405Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Engineering Manager - Verification\" at SumUp scored 73% [Tailor Resume]. Tailoring Gate >=60%: true"
+    },
+    {
+      "id": "log-1789574074366-z9rk",
+      "timestamp": "2026-09-16T15:54:34.366Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [11/58]: \"Engineering Manager - Verification\" at SumUp..."
+    },
+    {
+      "id": "log-1789574074361-9elv",
+      "timestamp": "2026-09-16T15:54:34.361Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Generated tailored resume with 69% truthful ATS coverage (Zero Fabrication Certified)."
+    },
+    {
+      "id": "log-1789574074342-cjk8",
+      "timestamp": "2026-09-16T15:54:34.342Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini tailoring failed: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Using deterministic tailoring engine."
+    },
+    {
+      "id": "log-1789574074334-icle",
+      "timestamp": "2026-09-16T15:54:34.334Z",
+      "level": "info",
+      "module": "ATS_TAILOR",
+      "message": "Initiating automated resume tailoring for \"Senior Analytics Engineer - Run & Grow\" at SumUp (Gate >= 60% passed with match score 73%)."
+    },
+    {
+      "id": "log-1789574074322-l164",
+      "timestamp": "2026-09-16T15:54:34.322Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini ATS analysis error: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Falling back to deterministic ATS engine."
+    },
+    {
+      "id": "log-1789574074312-sxs1",
+      "timestamp": "2026-09-16T15:54:34.312Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 73% passes the 60% Gate! Generating tailored resume..."
+    },
+    {
+      "id": "log-1789574074305-7gdh",
+      "timestamp": "2026-09-16T15:54:34.305Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Senior Analytics Engineer - Run & Grow\" at SumUp scored 73% [Tailor Resume]. Tailoring Gate >=60%: true"
+    },
+    {
+      "id": "log-1789574072234-ylrh",
+      "timestamp": "2026-09-16T15:54:32.234Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [10/58]: \"Senior Analytics Engineer - Run & Grow\" at SumUp..."
+    },
+    {
+      "id": "log-1789574072229-gk0g",
+      "timestamp": "2026-09-16T15:54:32.229Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Generated tailored resume with 69% truthful ATS coverage (Zero Fabrication Certified)."
+    },
+    {
+      "id": "log-1789574072208-0nu8",
+      "timestamp": "2026-09-16T15:54:32.208Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini tailoring failed: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Using deterministic tailoring engine."
+    },
+    {
+      "id": "log-1789574072201-fq32",
+      "timestamp": "2026-09-16T15:54:32.201Z",
+      "level": "info",
+      "module": "ATS_TAILOR",
+      "message": "Initiating automated resume tailoring for \"Engineering Manager - Edge AI\" at SumUp (Gate >= 60% passed with match score 74%)."
+    },
+    {
+      "id": "log-1789574072189-j518",
+      "timestamp": "2026-09-16T15:54:32.189Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini ATS analysis error: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Falling back to deterministic ATS engine."
+    },
+    {
+      "id": "log-1789574072180-fjtp",
+      "timestamp": "2026-09-16T15:54:32.180Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 74% passes the 60% Gate! Generating tailored resume..."
+    },
+    {
+      "id": "log-1789574072174-ws8n",
+      "timestamp": "2026-09-16T15:54:32.174Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Engineering Manager - Edge AI\" at SumUp scored 74% [Tailor Resume]. Tailoring Gate >=60%: true"
+    },
+    {
+      "id": "log-1789574070232-zyz1",
+      "timestamp": "2026-09-16T15:54:30.232Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [9/58]: \"Engineering Manager - Edge AI\" at SumUp..."
+    },
+    {
+      "id": "log-1789574070226-6pr1",
+      "timestamp": "2026-09-16T15:54:30.226Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 37% [Reject] below 60% gate; tailoring skipped."
+    },
+    {
+      "id": "log-1789574070220-rmjo",
+      "timestamp": "2026-09-16T15:54:30.220Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Social Media Praktikant:in (m/w/d)\" at Küchenkompane scored 37% [Reject]. Tailoring Gate >=60%: false"
+    },
+    {
+      "id": "log-1789574068286-8f19",
+      "timestamp": "2026-09-16T15:54:28.286Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [8/58]: \"Social Media Praktikant:in (m/w/d)\" at Küchenkompane..."
+    },
+    {
+      "id": "log-1789574068280-qzmw",
+      "timestamp": "2026-09-16T15:54:28.280Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 42% [Reject] below 60% gate; tailoring skipped."
+    },
+    {
+      "id": "log-1789574068273-82we",
+      "timestamp": "2026-09-16T15:54:28.273Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Performance Marketing Manager / Meta Ads (m/w/d)\" at Finanzklar GmbH scored 42% [Reject]. Tailoring Gate >=60%: false"
+    },
+    {
+      "id": "log-1789574066315-e3xw",
+      "timestamp": "2026-09-16T15:54:26.315Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [7/58]: \"Performance Marketing Manager / Meta Ads (m/w/d)\" at Finanzklar GmbH..."
+    },
+    {
+      "id": "log-1789574066310-sn8k",
+      "timestamp": "2026-09-16T15:54:26.310Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 45% [Reject] below 60% gate; tailoring skipped."
+    },
+    {
+      "id": "log-1789574066302-gawp",
+      "timestamp": "2026-09-16T15:54:26.302Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Senior Embedded (ARM) Engineer - Quantum Computing (m/w/d)\" at eleQtron GmbH scored 45% [Reject]. Tailoring Gate >=60%: false"
+    },
+    {
+      "id": "log-1789574064432-g5r2",
+      "timestamp": "2026-09-16T15:54:24.432Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [6/58]: \"Senior Embedded (ARM) Engineer - Quantum Computing (m/w/d)\" at eleQtron GmbH..."
+    },
+    {
+      "id": "log-1789574064427-aw91",
+      "timestamp": "2026-09-16T15:54:24.427Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 46% [Reject] below 60% gate; tailoring skipped."
+    },
+    {
+      "id": "log-1789574064422-9p2c",
+      "timestamp": "2026-09-16T15:54:24.422Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Senior UI/UX Engineer- Quantum Computing (m/w/d)\" at eleQtron GmbH scored 46% [Reject]. Tailoring Gate >=60%: false"
+    },
+    {
+      "id": "log-1789574062458-y3s2",
+      "timestamp": "2026-09-16T15:54:22.458Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [5/58]: \"Senior UI/UX Engineer- Quantum Computing (m/w/d)\" at eleQtron GmbH..."
+    },
+    {
+      "id": "log-1789574062453-6b2t",
+      "timestamp": "2026-09-16T15:54:22.453Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 46% [Reject] below 60% gate; tailoring skipped."
+    },
+    {
+      "id": "log-1789574062448-2vzz",
+      "timestamp": "2026-09-16T15:54:22.448Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Cloud Engineer - Quantum Computing (m/w/d)\" at eleQtron GmbH scored 46% [Reject]. Tailoring Gate >=60%: false"
+    },
+    {
+      "id": "log-1789574060441-zuez",
+      "timestamp": "2026-09-16T15:54:20.441Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [4/58]: \"Cloud Engineer - Quantum Computing (m/w/d)\" at eleQtron GmbH..."
+    },
+    {
+      "id": "log-1789574060436-ia8i",
+      "timestamp": "2026-09-16T15:54:20.436Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Generated tailored resume with 64% truthful ATS coverage (Zero Fabrication Certified)."
+    },
+    {
+      "id": "log-1789574060419-nhf2",
+      "timestamp": "2026-09-16T15:54:20.419Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini tailoring failed: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Using deterministic tailoring engine."
+    },
+    {
+      "id": "log-1789574060413-kznu",
+      "timestamp": "2026-09-16T15:54:20.413Z",
+      "level": "info",
+      "module": "ATS_TAILOR",
+      "message": "Initiating automated resume tailoring for \"Technical Recruiter\" at Trading212 (Gate >= 60% passed with match score 66%)."
+    },
+    {
+      "id": "log-1789574060403-gcn6",
+      "timestamp": "2026-09-16T15:54:20.403Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini ATS analysis error: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Falling back to deterministic ATS engine."
+    },
+    {
+      "id": "log-1789574060396-v00h",
+      "timestamp": "2026-09-16T15:54:20.397Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 66% passes the 60% Gate! Generating tailored resume..."
+    },
+    {
+      "id": "log-1789574060391-r094",
+      "timestamp": "2026-09-16T15:54:20.391Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Technical Recruiter\" at Trading212 scored 66% [Tailor Resume]. Tailoring Gate >=60%: true"
+    },
+    {
+      "id": "log-1789574058398-t6zq",
+      "timestamp": "2026-09-16T15:54:18.398Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [3/58]: \"Technical Recruiter\" at Trading212..."
+    },
+    {
+      "id": "log-1789574058393-t1oi",
+      "timestamp": "2026-09-16T15:54:18.393Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Generated tailored resume with 64% truthful ATS coverage (Zero Fabrication Certified)."
+    },
+    {
+      "id": "log-1789574058376-ixtf",
+      "timestamp": "2026-09-16T15:54:18.376Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini tailoring failed: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Using deterministic tailoring engine."
+    },
+    {
+      "id": "log-1789574058368-8tam",
+      "timestamp": "2026-09-16T15:54:18.368Z",
+      "level": "info",
+      "module": "ATS_TAILOR",
+      "message": "Initiating automated resume tailoring for \"Product Recruiter\" at Trading212 (Gate >= 60% passed with match score 73%)."
+    },
+    {
+      "id": "log-1789574058353-cziv",
+      "timestamp": "2026-09-16T15:54:18.353Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini ATS analysis error: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Falling back to deterministic ATS engine."
+    },
+    {
+      "id": "log-1789574058347-3jh8",
+      "timestamp": "2026-09-16T15:54:18.347Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 73% passes the 60% Gate! Generating tailored resume..."
+    },
+    {
+      "id": "log-1789574058342-5ylt",
+      "timestamp": "2026-09-16T15:54:18.342Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Product Recruiter\" at Trading212 scored 73% [Tailor Resume]. Tailoring Gate >=60%: true"
+    },
+    {
+      "id": "log-1789574056369-5eqd",
+      "timestamp": "2026-09-16T15:54:16.369Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [2/58]: \"Product Recruiter\" at Trading212..."
+    },
+    {
+      "id": "log-1789574056364-59yf",
+      "timestamp": "2026-09-16T15:54:16.364Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Generated tailored resume with 64% truthful ATS coverage (Zero Fabrication Certified)."
+    },
+    {
+      "id": "log-1789574056341-8xf3",
+      "timestamp": "2026-09-16T15:54:16.341Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini tailoring failed: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Using deterministic tailoring engine."
+    },
+    {
+      "id": "log-1789574056335-jmt6",
+      "timestamp": "2026-09-16T15:54:16.335Z",
+      "level": "info",
+      "module": "ATS_TAILOR",
+      "message": "Initiating automated resume tailoring for \"Business Recruiter\" at Trading212 (Gate >= 60% passed with match score 65%)."
+    },
+    {
+      "id": "log-1789574056323-fqzg",
+      "timestamp": "2026-09-16T15:54:16.323Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Gemini ATS analysis error: Error: Failed to connect to local Ollama at http://localhost:11434/api/generate: fetch failed. Falling back to deterministic ATS engine."
+    },
+    {
+      "id": "log-1789574056313-58c8",
+      "timestamp": "2026-09-16T15:54:16.313Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Match score 65% passes the 60% Gate! Generating tailored resume..."
+    },
+    {
+      "id": "log-1789574056308-cfv3",
+      "timestamp": "2026-09-16T15:54:16.308Z",
+      "level": "info",
+      "module": "MATCHING",
+      "message": "Job \"Business Recruiter\" at Trading212 scored 65% [Tailor Resume]. Tailoring Gate >=60%: true"
+    },
+    {
+      "id": "log-1789574052159-idwn",
+      "timestamp": "2026-09-16T15:54:12.159Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Evaluating [1/58]: \"Business Recruiter\" at Trading212..."
+    },
+    {
+      "id": "log-1789574052155-e3m2",
+      "timestamp": "2026-09-16T15:54:12.155Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Database persistence: 57 new jobs saved, 1 existing updated."
+    },
+    {
+      "id": "log-1789574052147-jbop",
+      "timestamp": "2026-09-16T15:54:12.147Z",
+      "level": "info",
+      "module": "DEDUPE",
+      "message": "Deduplication complete. Inserted: 57, Updated: 1, Skipped: 0"
+    },
+    {
+      "id": "log-1789574052140-aquj",
+      "timestamp": "2026-09-16T15:54:12.140Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "57 valid jobs saved to database (1 cross-source duplicates filtered)."
+    },
+    {
+      "id": "log-1789574052135-wrou",
+      "timestamp": "2026-09-16T15:54:12.135Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "58 successfully extracted with verified schema and dates."
+    },
+    {
+      "id": "log-1789574052132-48j5",
+      "timestamp": "2026-09-16T15:54:12.132Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "58 likely job pages identified (search/listing pages successfully rejected)."
+    },
+    {
+      "id": "log-1789574052129-5yve",
+      "timestamp": "2026-09-16T15:54:12.129Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "58 unique URLs verified after normalization and deduplication."
+    },
+    {
+      "id": "log-1789574052126-jfny",
+      "timestamp": "2026-09-16T15:54:12.126Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "58 search results collected across feeds and registries."
+    },
+    {
+      "id": "log-1789574052110-uxse",
+      "timestamp": "2026-09-16T15:54:12.110Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Aggregated 313 raw live job postings across live feeds."
+    },
+    {
+      "id": "log-1789574050606-r79p",
+      "timestamp": "2026-09-16T15:54:10.606Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Connecting to real-time live tech, product, and engineering feeds across active ATS networks..."
+    },
+    {
+      "id": "log-1789574050605-ipi1",
+      "timestamp": "2026-09-16T15:54:10.605Z",
+      "level": "info",
+      "module": "DISCOVERY",
+      "message": "Search started for region [USA] targeting 1 role profiles."
+    },
+    {
+      "id": "log-1789573955590-sl43",
+      "timestamp": "2026-09-16T15:52:35.590Z",
+      "level": "info",
+      "module": "DATABASE",
+      "message": "Database reset to a clean slate (ready for fresh discovery and user data)."
+    },
+    {
+      "id": "log-1789571014629-bitu",
+      "timestamp": "2026-09-16T15:03:34.629Z",
+      "level": "info",
+      "module": "SETTINGS",
+      "message": "Updated AI settings: Provider=ollama, Model=qwen3.8:latest"
+    },
+    {
+      "id": "log-1789571013269-117p",
+      "timestamp": "2026-09-16T15:03:33.269Z",
+      "level": "info",
+      "module": "SETTINGS",
+      "message": "Updated AI settings: Provider=gemini, Model=gemini-3.8-flash"
+    },
+    {
+      "id": "log-1789571012531-bnki",
+      "timestamp": "2026-09-16T15:03:32.531Z",
+      "level": "info",
+      "module": "SETTINGS",
+      "message": "Updated AI settings: Provider=ollama, Model=qwen3.8:latest"
+    },
+    {
+      "id": "log-1789144605797-z1b0",
+      "timestamp": "2026-09-11T16:36:45.797Z",
+      "level": "info",
+      "module": "DATABASE",
+      "message": "Master Resume Version v1 marked as ACTIVE source of truth."
+    },
+    {
+      "id": "log-001",
+      "timestamp": "2026-09-11T16:22:08.434Z",
+      "level": "info",
+      "module": "DATABASE",
+      "message": "Initialized normalized database store with 16 relational tables and verified seed master resume."
+    },
+    {
+      "id": "log-002",
+      "timestamp": "2026-09-11T16:22:08.434Z",
+      "level": "warn",
+      "module": "ATS_TAILOR",
+      "message": "Auditor Flagged: Header mentions PMP, but certification section does not independently list PMP. PMP will NOT be injected into tailored certifications."
+    }
+  ],
+  "parsed_reviews": {
+    "rev-1789144544853-pwces": {
+      "id": "rev-1789144544853-pwces",
+      "raw_text_preview": "Bhargav Choppa\nEmail: test@example.com\nPhone: +1 555 123 4567\nPMP | Product Owner\n\nExperience\nCompany A\nProduct Manager\nJan 2023 - Present\nLed product roadmap.\n\nCertifications\nCSPO Certified Scrum Product Owner\n\nEducation\nBS Computer Science",
+      "extracted_resume": {
+        "id": "master-1789144544852",
+        "user_id": "user-default",
+        "version": 1,
+        "is_active": false,
+        "source_of_truth": {
+          "is_verified": false,
+          "source": "user_upload",
+          "last_verified_at": "2026-09-11T16:35:44.852Z"
+        },
+        "personal_information": {
+          "full_name": "Bhargav Choppa",
+          "email": "test@example.com",
+          "phone": "+1 555 123 4567",
+          "location": "PMP",
+          "linkedin_url": "https://linkedin.com/in/bhargavchoppa",
+          "header_positioning": "PMP | Product Owner"
+        },
+        "professional_summary": "Phone: +1 555 123 4567 PMP | Product Owner Experience Company A",
+        "skills": [
+          "Agile / Scrum",
+          "BRD / FRD Authoring",
+          "Business Process Modeling (BPMN)",
+          "Product Roadmapping",
+          "User Story Development",
+          "Stakeholder Management",
+          "Data Analysis",
+          "Gap Analysis"
+        ],
+        "technologies": [
+          "JIRA",
+          "Confluence",
+          "SQL",
+          "Tableau",
+          "Power BI",
+          "Figma",
+          "REST APIs",
+          "Visio",
+          "Postman"
+        ],
+        "experience": [
+          {
+            "id": "exp-det-1",
+            "company": "KLA Corporation",
+            "title": "Lead Business Analyst / Technical Product Owner",
+            "location": "Hartford, CT",
+            "start_date": "03/2023",
+            "end_date": "Present",
+            "is_current": true,
+            "responsibilities": [
+              "Led requirement decomposition and technical specification for yield analytics software.",
+              "Conducted cross-functional sprint planning, backlog grooming, and user story acceptance.",
+              "Built Tableau executive operational dashboards for yield forecasting."
+            ],
+            "achievements": [
+              "Achieved 30% operational effectiveness improvement in wafer data pipeline workflows."
+            ],
+            "technologies": [
+              "JIRA",
+              "Tableau",
+              "SQL",
+              "Confluence"
+            ],
+            "industry": "Semiconductor & Advanced Analytics",
+            "domain": "Wafer Yield Analytics & Metrology"
+          }
+        ],
+        "education": [
+          {
+            "id": "edu-det-1",
+            "degree": "Bachelor of Technology",
+            "field_of_study": "Computer Science & Engineering",
+            "institution": "JNTU",
+            "graduation_date": "2016",
+            "location": "Hyderabad, India"
+          }
+        ],
+        "certifications": [
+          {
+            "id": "cert-det-1",
+            "name": "Certified Scrum Product Owner (CSPO)",
+            "issuer": "Scrum Alliance",
+            "verified": true
+          }
+        ],
+        "projects": [],
+        "achievements": [
+          "Delivered enterprise-scale data migration with zero data loss."
+        ],
+        "inconsistency_flags": [
+          {
+            "id": "FLAG-INCONSISTENCY-PMP",
+            "code": "HEADER_CERTIFICATION_MISMATCH",
+            "severity": "high",
+            "title": "Potential resume inconsistency — verify PMP certification.",
+            "description": "Header states \"PMP | Product Owner\" (referencing PMP), but the Certification section does not list PMP. The system will NOT automatically add PMP.",
+            "location_a": "personal_information.header_positioning",
+            "location_b": "certifications",
+            "resolution_rule": "Display warning to user. Do NOT automatically add PMP to master resume or tailored output."
+          }
+        ],
+        "total_experience_years": 8,
+        "last_updated": "2026-09-11T16:35:44.852Z",
+        "is_immutable": false
+      },
+      "inconsistencies": [
+        {
+          "id": "FLAG-INCONSISTENCY-PMP",
+          "code": "HEADER_CERTIFICATION_MISMATCH",
+          "severity": "high",
+          "title": "Potential resume inconsistency — verify PMP certification.",
+          "description": "Header states \"PMP | Product Owner\" (referencing PMP), but the Certification section does not list PMP. The system will NOT automatically add PMP.",
+          "location_a": "personal_information.header_positioning",
+          "location_b": "certifications",
+          "resolution_rule": "Display warning to user. Do NOT automatically add PMP to master resume or tailored output."
+        }
+      ],
+      "parsing_confidence": {
+        "overall": 92,
+        "sections_detected": [],
+        "warnings": [
+          "AI parser notice: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}. Using deterministic fallback parser."
+        ]
+      },
+      "uploaded_filename": "test.txt",
+      "created_at": "2026-09-11T16:35:44.853Z"
+    },
+    "rev-1789144592580-9f5tz": {
+      "id": "rev-1789144592580-9f5tz",
+      "raw_text_preview": "Bhargav Choppa\nEmail: test@example.com\nPhone: +1 555 123 4567\nPMP | Product Owner\n\nExperience\nCompany A\nProduct Manager\nJan 2023 - Present\nLed product roadmap.\n\nCertifications\nCSPO Certified Scrum Product Owner\n\nEducation\nBS Computer Science",
+      "extracted_resume": {
+        "id": "master-1789144592579",
+        "user_id": "user-default",
+        "version": 1,
+        "is_active": false,
+        "source_of_truth": {
+          "is_verified": false,
+          "source": "user_upload",
+          "last_verified_at": "2026-09-11T16:36:32.579Z"
+        },
+        "personal_information": {
+          "full_name": "Bhargav Choppa",
+          "email": "test@example.com",
+          "phone": "+1 555 123 4567",
+          "location": "PMP",
+          "linkedin_url": "https://linkedin.com/in/bhargavchoppa",
+          "header_positioning": "PMP | Product Owner"
+        },
+        "professional_summary": "Phone: +1 555 123 4567 PMP | Product Owner Experience Company A",
+        "skills": [
+          "Agile / Scrum",
+          "BRD / FRD Authoring",
+          "Business Process Modeling (BPMN)",
+          "Product Roadmapping",
+          "User Story Development",
+          "Stakeholder Management",
+          "Data Analysis",
+          "Gap Analysis"
+        ],
+        "technologies": [
+          "JIRA",
+          "Confluence",
+          "SQL",
+          "Tableau",
+          "Power BI",
+          "Figma",
+          "REST APIs",
+          "Visio",
+          "Postman"
+        ],
+        "experience": [
+          {
+            "id": "exp-det-1",
+            "company": "KLA Corporation",
+            "title": "Lead Business Analyst / Technical Product Owner",
+            "location": "Hartford, CT",
+            "start_date": "03/2023",
+            "end_date": "Present",
+            "is_current": true,
+            "responsibilities": [
+              "Led requirement decomposition and technical specification for yield analytics software.",
+              "Conducted cross-functional sprint planning, backlog grooming, and user story acceptance.",
+              "Built Tableau executive operational dashboards for yield forecasting."
+            ],
+            "achievements": [
+              "Achieved 30% operational effectiveness improvement in wafer data pipeline workflows."
+            ],
+            "technologies": [
+              "JIRA",
+              "Tableau",
+              "SQL",
+              "Confluence"
+            ],
+            "industry": "Semiconductor & Advanced Analytics",
+            "domain": "Wafer Yield Analytics & Metrology"
+          }
+        ],
+        "education": [
+          {
+            "id": "edu-det-1",
+            "degree": "Bachelor of Technology",
+            "field_of_study": "Computer Science & Engineering",
+            "institution": "JNTU",
+            "graduation_date": "2016",
+            "location": "Hyderabad, India"
+          }
+        ],
+        "certifications": [
+          {
+            "id": "cert-det-1",
+            "name": "Certified Scrum Product Owner (CSPO)",
+            "issuer": "Scrum Alliance",
+            "verified": true
+          }
+        ],
+        "projects": [],
+        "achievements": [
+          "Delivered enterprise-scale data migration with zero data loss."
+        ],
+        "inconsistency_flags": [
+          {
+            "id": "FLAG-INCONSISTENCY-PMP",
+            "code": "HEADER_CERTIFICATION_MISMATCH",
+            "severity": "high",
+            "title": "Potential resume inconsistency — verify PMP certification.",
+            "description": "Header states \"PMP | Product Owner\" (referencing PMP), but the Certification section does not list PMP. The system will NOT automatically add PMP.",
+            "location_a": "personal_information.header_positioning",
+            "location_b": "certifications",
+            "resolution_rule": "Display warning to user. Do NOT automatically add PMP to master resume or tailored output."
+          }
+        ],
+        "total_experience_years": 8,
+        "last_updated": "2026-09-11T16:36:32.580Z",
+        "is_immutable": false
+      },
+      "inconsistencies": [
+        {
+          "id": "FLAG-INCONSISTENCY-PMP",
+          "code": "HEADER_CERTIFICATION_MISMATCH",
+          "severity": "high",
+          "title": "Potential resume inconsistency — verify PMP certification.",
+          "description": "Header states \"PMP | Product Owner\" (referencing PMP), but the Certification section does not list PMP. The system will NOT automatically add PMP.",
+          "location_a": "personal_information.header_positioning",
+          "location_b": "certifications",
+          "resolution_rule": "Display warning to user. Do NOT automatically add PMP to master resume or tailored output."
+        }
+      ],
+      "parsing_confidence": {
+        "overall": 92,
+        "sections_detected": [],
+        "warnings": [
+          "AI parser notice: Gemini parse request timed out. Using deterministic fallback parser."
+        ]
+      },
+      "uploaded_filename": "test.txt",
+      "created_at": "2026-09-11T16:36:32.580Z"
+    }
+  },
+  "resume_generation_runs": [],
+  "truth_validation_reports": {},
+  "ai_settings": {
+    "provider": "ollama",
+    "ollamaUrl": "http://localhost:11434",
+    "ollamaModel": "qwen3.8:latest",
+    "geminiModel": "gemini-3.8-flash",
+    "temperature": 0.2,
+    "maxTokens": 4096,
+    "activeModel": "gemini-3.8-flash"
+  }
+}
